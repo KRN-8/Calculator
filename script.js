@@ -20,6 +20,23 @@ function display(val) {
 	document.getElementById("result").value += val;
 }
 
+document.addEventListener('keydown', (event) => {
+	const key = event.key;
+	if (key >= '0' && key <= '9') {
+		display(key);
+	} else if (isOperator(key)) {
+		display(key);
+	} else if (key === 'Enter') {
+		solve();
+	} else if (key === '.') {
+		display('.');
+	} else if (key === 'Backspace') {
+		backSpace();
+	} else if (key === 'Escape') {
+		clearScreen();
+	}
+});
+
 /*
 btn CE
 btn C
