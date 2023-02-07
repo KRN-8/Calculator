@@ -36,11 +36,16 @@ body {
     color: rgb(62, 222, 3);
 }
 
-.btnC,
-.btnBS {
+.btnC {
     width: 80px;
     height: 35px;
 }
+
+.btnBS {
+    width: 35px;
+    height: 35px;
+}
+
 
 .btn:hover {
     background: linear-gradient(to right, rgb(6, 66, 138), rgb(23, 23, 86));
@@ -71,6 +76,7 @@ body {
     color: rgb(178, 222, 3);
 }
 
+.btnPlusMinus,
 .btnaddition,
 .btnsubtraction,
 .btnmultiplication,
@@ -81,6 +87,7 @@ body {
     background: linear-gradient(to right, rgb(6, 74, 157), rgb(31, 31, 114));
 }
 
+.btnPlusMinus:hover,
 .btnaddition:hover,
 .btnsubtraction:hover,
 .btnmultiplication:hover,
@@ -92,6 +99,7 @@ body {
     background: linear-gradient(to right, rgb(3, 38, 82), rgb(16, 16, 59));
 }
 
+.btnPlusMinus:active,
 .btnaddition:active,
 .btnsubtraction:active,
 .btnmultiplication:active,
