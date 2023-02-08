@@ -69,7 +69,7 @@ function negate() {
 	else if (varNum == "-0")
 		varNum = 0;
 
-	else if (operator === null)
+	else if (operator === null && varAcc !== null)
 		varAcc *= -1;
 	else
 		varNum *= -1;
