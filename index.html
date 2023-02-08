@@ -2,71 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./calculator.js" defer></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="./calculator.js" defer></script>
 </head>
 
 <body id="body" class="body flex d-flex flex-col min-vh-100">
-    <section class="section-1">
-        <div class="card mb-3">
-            <p class="headerlogo">Calculator</p>
-            <form action="" class="form">
-                <input id="result" class="forminputfield" title="numberplate" type="text" disabled>
-            </form>
+	<section class="section-1">
+		<div class="card mb-3">
+			<p class="headerlogo">Calculator</p>
+			<form action="" class="form">
+				<input id="result" class="forminputfield" title="numberplate" type="text" disabled>
+			</form>
 
-            <div class="card-body">
-                <br>
-                <div class="row">
-                    <input type="button" class="btn btnPlusMinus" value="±" onclick="plusMinus()">
-                    <input type="button" class="btn btnBS" value="BS" onclick="backSpace()">
-                    <input type='button' class="btn btnC" value='C' onclick="clearScreen()">
-                </div>
-                <div class="row">
-                    <input type="button" class="btn btnseven seven btnnum" value="7" onClick="display('7')">
-                    <input type="button" class="btn btneight eight btnnum" value="8" onClick="display('8')">
-                    <input type="button" class="btn btnnine nine btnnum" value="9" onClick="display('9')">
-                    <input type="button" class="btn btndivision" value="/" onClick="display('/')">
-                </div>
-                <div class="row">
-                    <input type="button" class="btn btnfour four btnnum" value="4" onClick="display('4')">
-                    <input type="button" class="btn btnfive five btnnum" value="5" onClick="display('5')">
-                    <input type="button" class="btn btnsix six btnnum" value="6" onClick="display('6')">
-                    <input type="button" class="btn btnmultiplication" value="*" onClick="display('*')">
-                </div>
-                <div class="row">
-                    <input type="button" class="btn btnone one btnnum" value="1" onClick="display('1')">
-                    <input type="button" class="btn btntwo two btnnum" value="2" onClick="display('2')">
-                    <input type="button" class="btn btnthree three btnnum" value="3" onClick="display('3')">
-                    <input type="button" class="btn btnsubtraction" value="-" onClick="display('-')">
-                </div>
-                <div class="row">
-                    <input type="button" class="btn btndot dot" value="." onClick="display('.')">
-                    <input type="button" class="btn btnzero btnnum" value="0" onClick="display('0')">
-                    <input type="button" class="btn btnequal" value="=" onClick="solve()">
-                    <input type="button" class="btn btnaddition" value="+" onClick="display('+')">
-                </div>
+			<div class="card-body">
+				<br>
+				<div class="row">
+					<input type="button" class="btn btnPlusMinus" value="±" onclick="negate()">
+					<input type="button" class="btn btnBS" value="BS" onclick="backSpace()">
+					<input type="button" class="btn btnC" value="C" onclick="clearAll()">
+				</div>
+				<div class="row">
+					<input type="button" class="btn btnseven seven btnnum" value="7" onclick="input('7')">
+					<input type="button" class="btn btneight eight btnnum" value="8" onclick="input('8')">
+					<input type="button" class="btn btnnine nine btnnum" value="9" onclick="input('9')">
+					<input type="button" class="btn btndivision" value="/" onclick="input('/')">
+				</div>
+				<div class="row">
+					<input type="button" class="btn btnfour four btnnum" value="4" onclick="input('4')">
+					<input type="button" class="btn btnfive five btnnum" value="5" onclick="input('5')">
+					<input type="button" class="btn btnsix six btnnum" value="6" onclick="input('6')">
+					<input type="button" class="btn btnmultiplication" value="*" onclick="input('*')">
+				</div>
+				<div class="row">
+					<input type="button" class="btn btnone one btnnum" value="1" onclick="input('1')">
+					<input type="button" class="btn btntwo two btnnum" value="2" onclick="input('2')">
+					<input type="button" class="btn btnthree three btnnum" value="3" onclick="input('3')">
+					<input type="button" class="btn btnsubtraction" value="-" onclick="input('-')">
+				</div>
+				<div class="row">
+					<input type="button" class="btn btndot dot" value="." onclick="input('.')">
+					<input type="button" class="btn btnzero btnnum" value="0" onclick="input('0')">
+					<input type="button" class="btn btnequal" value="=" onclick="solve()">
+					<input type="button" class="btn btnaddition" value="+" onclick="input('+')">
+				</div>
 
-                <br>
-                <fieldset class="fieldset">
-                    <legend class="legend">Made by:</legend>
-                    <label class="buttonlegend">Roland</label>
-                    <br>
-                    <br>
-                    <label class="buttonlegend">Wavhudi</label>
-                    <br>
-                    <br>
-                    <label class="buttonlegend">Premek</label>
-                    <br>
-                    <br>
-                    <label class="buttonlegend">Mohamed</label>
-                </fieldset>
-            </div>
-        </div>
-    </section>
+				<br>
+				<fieldset class="fieldset">
+					<legend class="legend">Made by:</legend>
+					<label class="buttonlegend">Roland</label>
+					<br>
+					<br>
+					<label class="buttonlegend">Wavhudi</label>
+					<br>
+					<br>
+					<label class="buttonlegend">Premek</label>
+					<br>
+					<br>
+					<label class="buttonlegend">Mohamed</label>
+				</fieldset>
+			</div>
+		</div>
+	</section>
 </body>
 
 </html>
