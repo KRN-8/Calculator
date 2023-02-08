@@ -1,3 +1,2 @@
 # Calculator
- It's a calculator.
-https://rolandreithauser.github.io/Calculator/
+It's a [calculator](https://krn-8.github.io/Calculator/). 
