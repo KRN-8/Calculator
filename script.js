@@ -24,11 +24,11 @@ document.addEventListener('keydown', (event) => {
 	const key = event.key;
 	if (key >= '0' && key <= '9') {
 		display(key);
-	} else if (isOperator(key)) {
+	} else if (['+', '-', '*', '/'].includes(key)) {
 		display(key);
 	} else if (key === 'Enter') {
 		solve();
-	} else if (key === '.') {
+	} else if (key === '.' || key === ",") {
 		display('.');
 	} else if (key === 'Backspace') {
 		backSpace();
