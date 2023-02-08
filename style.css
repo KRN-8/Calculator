@@ -1,79 +1,79 @@
 @font-face {
-    font-family: 'SevenSegment';
-    src: url(./FontFamily/Seven\ Segment.ttf) format('truetype');
+	font-family: 'SevenSegment';
+	src: url(./FontFamily/Seven\ Segment.ttf) format('truetype');
 }
 
 .headerlogo {
-    color: rgb(245, 146, 7);
-    text-shadow: 2px 2px rgb(47, 47, 174);
-    font-weight: 900;
-    font-size: larger;
-    letter-spacing: 5px;
-    padding-left: 15px;
+	color: rgb(245, 146, 7);
+	text-shadow: 2px 2px rgb(47, 47, 174);
+	font-weight: 900;
+	font-size: larger;
+	letter-spacing: 5px;
+	padding-left: 15px;
 }
 
 html,
 body {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
-    margin: 0;
-    background: linear-gradient(to right, rgb(93, 156, 233), rgb(2, 69, 151));
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100%;
+	margin: 0;
+	background: linear-gradient(to right, rgb(93, 156, 233), rgb(2, 69, 151));
 }
 
 .section-1 {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 .btn {
-    background: linear-gradient(to right, rgb(11, 104, 216), rgb(47, 47, 174));
-    width: 35px;
-    height: 35px;
-    margin: 3px;
-    border: 1px solid rgb(72, 134, 211);
-    border-radius: 3px;
-    box-shadow: 2px 2px rgb(47, 47, 174);
-    color: rgb(62, 222, 3);
+	background: linear-gradient(to right, rgb(11, 104, 216), rgb(47, 47, 174));
+	width: 35px;
+	height: 35px;
+	margin: 3px;
+	border: 1px solid rgb(72, 134, 211);
+	border-radius: 3px;
+	box-shadow: 2px 2px rgb(47, 47, 174);
+	color: rgb(62, 222, 3);
 }
 
 .btnC {
-    width: 80px;
-    height: 35px;
+	width: 80px;
+	height: 35px;
 }
 
 .btnBS {
-    width: 35px;
-    height: 35px;
+	width: 35px;
+	height: 35px;
 }
 
 
 .btn:hover {
-    background: linear-gradient(to right, rgb(6, 66, 138), rgb(23, 23, 86));
+	background: linear-gradient(to right, rgb(6, 66, 138), rgb(23, 23, 86));
 }
 
 .btn:active {
-    background: linear-gradient(to right, rgb(45, 136, 246), rgb(78, 78, 244));
-    box-shadow: 2px 2px rgb(27, 27, 100);
-    transform: translateY(3px);
+	background: linear-gradient(to right, rgb(45, 136, 246), rgb(78, 78, 244));
+	box-shadow: 2px 2px rgb(27, 27, 100);
+	transform: translateY(3px);
 }
 
 .btnequal {
-    color: rgb(62, 222, 3);
-    background: linear-gradient(to right, rgb(185, 185, 186), rgb(77, 77, 78));
+	color: rgb(62, 222, 3);
+	background: linear-gradient(to right, rgb(185, 185, 186), rgb(77, 77, 78));
 }
 
 .btnequal:hover {
-    background: linear-gradient(to right, rgb(113, 113, 113), rgb(39, 39, 39));
+	background: linear-gradient(to right, rgb(113, 113, 113), rgb(39, 39, 39));
 }
 
 .btnequal:active {
-    background: linear-gradient(to right, rgb(233, 233, 233), rgb(110, 110, 110));
-    box-shadow: 2px 2px rgb(27, 27, 100);
-    transform: translateY(3px);
+	background: linear-gradient(to right, rgb(233, 233, 233), rgb(110, 110, 110));
+	box-shadow: 2px 2px rgb(27, 27, 100);
+	transform: translateY(3px);
 }
 
 .btnnum {
-    color: rgb(178, 222, 3);
+	color: rgb(178, 222, 3);
 }
 
 .btnPlusMinus,
@@ -83,8 +83,8 @@ body {
 .btnC,
 .btnBS,
 .btndivision {
-    color: rgb(62, 222, 3);
-    background: linear-gradient(to right, rgb(6, 74, 157), rgb(31, 31, 114));
+	color: rgb(62, 222, 3);
+	background: linear-gradient(to right, rgb(6, 74, 157), rgb(31, 31, 114));
 }
 
 .btnPlusMinus:hover,
@@ -95,8 +95,8 @@ body {
 .btnC:hover,
 .btnBS:hover,
 .btndivision:hover {
-    color: rgb(62, 222, 3);
-    background: linear-gradient(to right, rgb(3, 38, 82), rgb(16, 16, 59));
+	color: rgb(62, 222, 3);
+	background: linear-gradient(to right, rgb(3, 38, 82), rgb(16, 16, 59));
 }
 
 .btnPlusMinus:active,
@@ -107,56 +107,56 @@ body {
 .btnC:active,
 .btnBS:active,
 .btndivision:active {
-    color: rgb(62, 222, 3);
-    background: linear-gradient(to right, rgb(10, 104, 219), rgb(56, 56, 212));
+	color: rgb(62, 222, 3);
+	background: linear-gradient(to right, rgb(10, 104, 219), rgb(56, 56, 212));
 }
 
 .forminputfield {
-    font-family: 'SevenSegment', sans-serif;
-    font-size: x-large;
-    font-weight: 600;
-    color: darkgreen;
-    background-color: black;
-    border-radius: 5px;
-    max-width: 170px;
-    box-shadow: 2px 2px rgb(47, 47, 174);
-    text-align: right;
+	font-family: 'SevenSegment', sans-serif;
+	font-size: x-large;
+	font-weight: 600;
+	color: darkgreen;
+	background-color: black;
+	border-radius: 5px;
+	max-width: 170px;
+	box-shadow: 2px 2px rgb(47, 47, 174);
+	text-align: right;
 }
 
 .card-title {
-    color: rgb(245, 146, 7);
-    text-shadow: 2px 2px rgb(47, 47, 174);
-    text-align: left;
-    font-weight: 500;
+	color: rgb(245, 146, 7);
+	text-shadow: 2px 2px rgb(47, 47, 174);
+	text-align: left;
+	font-weight: 500;
 }
 
 .card {
-    background: linear-gradient(to right, rgb(93, 156, 233), rgb(2, 69, 151));
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 200px;
-    margin: 0 auto;
-    float: none;
-    box-shadow: 5px 5px orange;
-    border: 1px solid orange;
-    border-radius: 10px;
+	background: linear-gradient(to right, rgb(93, 156, 233), rgb(2, 69, 151));
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 200px;
+	margin: 0 auto;
+	float: none;
+	box-shadow: 5px 5px orange;
+	border: 1px solid orange;
+	border-radius: 10px;
 }
 
 .fieldset {
-    background: linear-gradient(to right, rgb(6, 74, 157), rgb(31, 31, 114));
+	background: linear-gradient(to right, rgb(6, 74, 157), rgb(31, 31, 114));
 }
 
 .legend {
-    color: black;
-    background-color: white;
-    border-radius: 3px;
+	color: black;
+	background-color: white;
+	border-radius: 3px;
 }
 .buttonlegend {
-    text-align: center;
-    color: rgb(62, 222, 3);
-    text-shadow: 2px 2px rgb(47, 47, 174);
-    padding: 5px;
-    border-radius: 3px;
+	text-align: center;
+	color: rgb(62, 222, 3);
+	text-shadow: 2px 2px rgb(47, 47, 174);
+	padding: 5px;
+	border-radius: 3px;
 }
