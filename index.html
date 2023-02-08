@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./calculator.js" defer></script>
 </head>
 
 <body id="body" class="body flex d-flex flex-col min-vh-100">
@@ -16,6 +17,7 @@
             <form action="" class="form">
                 <input id="result" class="forminputfield" title="numberplate" type="text" disabled>
             </form>
+
             <div class="card-body">
                 <br>
                 <div class="row">
@@ -47,6 +49,7 @@
                     <input type="button" class="btn btnequal" value="=" onClick="solve()">
                     <input type="button" class="btn btnaddition" value="+" onClick="display('+')">
                 </div>
+
                 <br>
                 <fieldset class="fieldset">
                     <legend class="legend">Made by:</legend>
@@ -64,7 +67,6 @@
             </div>
         </div>
     </section>
-    <script src="./script.js"></script>
 </body>
 
 </html>
